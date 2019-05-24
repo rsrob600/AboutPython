@@ -4,3 +4,4 @@ I've taken some liberties on this project to align, justify and improve the over
  - Increased the font size and justify the content in the top main information box
  - Center align and justify the font and list in the lower content information boxes
  - center and align the footer navigation links
+ - added mouse hover highlights for the primary top navigation bar and secondary side navigation bar as well as the footer navigation links
