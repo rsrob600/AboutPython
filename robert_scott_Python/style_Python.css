@@ -1,0 +1,308 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+.container-master {
+    width: 970px;
+    min-height: 500px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 125px;
+    display: block;
+    background-color: #255076;
+    /* background-color: palegreen; */
+}
+
+.logo {
+    height: 90px;
+    width: 300px;
+    object-fit: cover;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+/* Website Font Size Global Controller */
+.website-font-size {
+    font-size: 11px;
+    color: white;
+    display: block;
+    position: relative;
+    top: -115px;
+    left: 810px;
+}
+
+.login-box {
+    height: 53px;
+    width: 255px;
+    display: inline-block;
+    position: relative;
+    top: -115px;
+    left: 680px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #1F2428;
+    background-color: #444444;
+}
+
+input[type=search] {
+    height: 28px;
+    width: 150px;
+    margin-left: 35px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+}
+
+input[type=submit] {
+    height: 28px;
+    width: 35px;
+    margin: 15px 4px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #255076;
+    color: #D0DAE2;
+}
+
+input[type=submit]:hover {
+    background: #FFD833;
+    color: black;
+}
+
+/* Top navigation bar content container */
+.nav-top {
+    height: 65px;
+    padding: 0px;
+    display: block;
+    background-color: #255076;
+    /* background-color: yellow; */
+}
+
+/* Top navigation bar element with centered menu links */
+.nav-bar {
+    height: 45px;
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #437DAD;
+    box-shadow: 2px 2px #1F2429;
+}
+
+.nav-bar a.active {
+    background-color: #437DAD;
+    color: white;
+}
+
+.nav-bar a:hover {
+    background-color: #FFD833;
+    color: black;
+}
+
+.nav-bar a {
+    float: left;
+    margin-left: 25px;
+    padding: 13px 18px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main content container which includes top/side nav with primary content box */
+.container-top-main {
+    height: 303px;
+    padding: 0px;
+    display: block;
+    background-color: #193853;
+    /* background-color: blue; */
+}
+
+.nav-sidebar {
+    width: 295px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #255076;
+    line-height: 1.8;
+    /* background-color: purple; */
+}
+
+.nav-sidebar ul {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.nav-sidebar ul li:before {
+    content: "\00BB \0020";
+    color: #FFD833;
+}
+
+.nav-sidebar a {
+    color: white;
+}
+
+.nav-sidebar a:hover {
+    color: #FFD833;
+    cursor: pointer;
+}
+
+/* Primary top content container box below top nav bar and to the right of side nav bar*/
+.top-main {
+    width: 674px;
+    height: 304px;
+    margin: -4px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #255076;
+    /* background-color: red; */
+}
+
+.top-main p {
+    font-size: 15px;
+    color: white;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.top-main ul {
+    list-style-type: none;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #FFD833;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+
+/* Secondary content container white block above footer */
+.container-middle {
+    height: 220px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    background-color: white;
+}
+
+.container-middle p {
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container-middle ul li:before {
+    color: black;
+}
+
+.container-middle ul li {
+    color: #73A7D5;
+    font-size: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+    list-style-type: square;
+}
+
+/* "Getting Started" content box in the middle left */
+.middle-left-content {
+    height: 195px;
+    width: 385px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 4px solid #73A7D5;
+    /* background-color: grey; */
+}
+
+/* "Applications" Content box in the middle right */
+.middle-right-content {
+    height: 195px;
+    width: 385px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 27px;
+    display: inline-block;
+    vertical-align: top;
+    border-top: 4px solid #73A7D5;
+    /* background-color: lightgrey; */
+
+}
+
+.middle-left-content strong {
+    margin-left: 135px;
+}
+
+.middle-right-content strong {
+    margin-left: 145px;
+}
+
+/* Footer Content Container */
+.footer {
+    padding-left: 120px;
+    min-height: 100px;
+    text-align: center;
+    background-image: linear-gradient(#255076, #3373ac);
+    /* background-color: lightcoral; */
+}
+
+/* Footer Hyperlink Texts */
+.footer a {
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 55px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #73A7D5;
+}
+
+/* Footer Hyperlink Text Hover Highlight */
+.footer a:hover {
+    color: #FFD833;
+    cursor: pointer;
+}
+
+/* Footer list remove bullets */
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer p {
+    font-size: 10px;
+    color: #73A7D5;
+    position: relative;
+    top: 80px;
+    left: -390px;
+}
+
+/* Styling for the website font size controls */
+span-1 {
+    color: #FFD833;
+    text-decoration: underline;
+}
+
+/* Styling for the paragraph highlights */
+span-2 {
+    color: #73A7D5;
+    font-size: 13px;
+}
+
+/* Styling for the website font size controls */
+span-3 {
+    color: black;
+}
+
+/* Styling for the paragraph list highlights */
+span-4 {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+}
