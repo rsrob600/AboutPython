@@ -88,29 +88,47 @@ input[type=submit]:hover {
     width: 900px;
     display: block;
     margin: 0 auto;
+    padding-bottom: 5px;
     border-radius: 8px;
     overflow: hidden;
     background-color: #437DAD;
     box-shadow: 2px 2px #1F2429;
 }
 
+/* Primary top nav bar styling for active color */
 .nav-bar a.active {
     background-color: #437DAD;
     color: white;
 }
 
+/* Primary top nav bar styling for hover color */
 .nav-bar a:hover {
     background-color: #FFD833;
     color: black;
 }
 
+/* Primary top nav bar hyperlink styling */
 .nav-bar a {
+    margin-left: 31px;
+    padding: 25px 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* originally had the top nav bar as regular a tags which was easy to style using float for the nav bar but without using float you have to put the links into a UL list in order to center */
+.nav-bar ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+/* working nav bar that includes float which can't be used for this project */
+/* .nav-bar a {
     float: left;
     margin-left: 25px;
     padding: 13px 18px;
     text-decoration: none;
     font-size: 18px;
-}
+} */
 
 /* Main content container which includes top/side nav with primary content box */
 .container-top-main {
@@ -121,6 +139,7 @@ input[type=submit]:hover {
     /* background-color: blue; */
 }
 
+/* Secondary side navigation bar */
 .nav-sidebar {
     width: 295px;
     height: 300px;
@@ -131,11 +150,13 @@ input[type=submit]:hover {
     /* background-color: purple; */
 }
 
+/* Sidebar ul styling to remove bullets and indent */
 .nav-sidebar ul {
     list-style: none;
     margin-left: 35px;
 }
 
+/* Sidebar ul to add special ASCII characters instead of the standard bullets */
 .nav-sidebar ul li:before {
     content: "\00BB \0020";
     color: #FFD833;
@@ -237,25 +258,39 @@ input[type=submit]:hover {
 
 }
 
+/* section title "Getting Started" */
 .middle-left-content strong {
     margin-left: 135px;
 }
 
+/* section title "Applications" */
 .middle-right-content strong {
     margin-left: 145px;
 }
 
 /* Footer Content Container */
 .footer {
-    padding-left: 120px;
     min-height: 100px;
     text-align: center;
+    padding: 5px;
+    padding-right: 45px;
+    min-height: 50px;
     background-image: linear-gradient(#255076, #3373ac);
     /* background-color: lightcoral; */
 }
 
 /* Footer Hyperlink Texts */
 .footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #73A7D5;
+    text-align: center;
+    padding: 0px 15px;
+
+}
+
+/* Footer Hyperlink Texts -- working code using the float tag but can't be used for this project*/
+/* .footer a {
     float: left;
     display: block;
     margin-left: auto;
@@ -264,7 +299,7 @@ input[type=submit]:hover {
     text-decoration: none;
     font-size: 15px;
     color: #73A7D5;
-}
+} */
 
 /* Footer Hyperlink Text Hover Highlight */
 .footer a:hover {
@@ -275,14 +310,15 @@ input[type=submit]:hover {
 /* Footer list remove bullets */
 .footer ul li {
     list-style-type: none;
+    display: inline;
 }
 
 .footer p {
     font-size: 10px;
     color: #73A7D5;
     position: relative;
-    top: 80px;
-    left: -390px;
+    top: 5px;
+    left: 35px;
 }
 
 /* Styling for the website font size controls */
