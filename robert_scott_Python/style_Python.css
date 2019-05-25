@@ -95,10 +95,10 @@ input[type=submit]:hover {
     box-shadow: 2px 2px #1F2429;
 }
 
-/* Primary top nav bar styling for active color */
+/* Primary top nav bar styling for active color hover*/
 .nav-bar a.active {
-    background-color: #437DAD;
-    color: white;
+    background-color: #FFD833;
+    color: black;
 }
 
 /* Primary top nav bar styling for hover color */
@@ -107,12 +107,19 @@ input[type=submit]:hover {
     color: black;
 }
 
+/* Primary top nav bar styling for not active hover */
+.nav-bar a:hover:not(.active) {
+    color: black;
+    background-color: #FFD833;
+}
+
 /* Primary top nav bar hyperlink styling */
 .nav-bar a {
     margin-left: 31px;
     padding: 25px 12px;
     text-decoration: none;
     font-size: 18px;
+    color: white;
 }
 
 /* originally had the top nav bar as regular a tags which was easy to style using float for the nav bar but without using float you have to put the links into a UL list in order to center */
